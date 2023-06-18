@@ -1,0 +1,124 @@
+:root {
+    --darkest-color: #000;
+    --dark-color: #14213D;
+    --contrast-color: #FCA311;
+    --light-color: #E5E5E5;
+    --lightest-color: #fff;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark-color);
+}
+
+body {
+    background-image: url("images/pexels-josh-hild-14557813.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Lora', serif; 
+    color: var(--lightest-color);
+}
+
+h2, h3, h4 {
+    font-family: 'Lora', serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    
+}
+
+img {
+    max-width: 50vw;
+    height: auto;
+}
+
+nav {
+    background-color: var(--dark-color);
+    padding: 5px;
+    position: relative;
+    top: 58px;
+    width: 100vw;
+}
+
+#results {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--lightest-color);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: var(--contrast-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--lightest-color);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.website-body {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 58px;
+    background-color: var(--lightest-color);
+    padding: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .website-body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+caption {
+    font-weight: bold;
+    color: var(--lightest-color);
+    background-color: var(--dark-color);
+}
+
+.main-content {
+    width: 75vw;
+}
+
+.sub-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside {
+    background-color: var(--light-color);
+    padding: 2px 5px;
+    margin: 0;
+}
+
+label, input, button, textarea {
+    display: block;
+    margin: 5px;
+}
+
+#current-page-home, #current-page-salem, #current-page-portland, #current-page-newport {
+    background-color:var(--contrast-color);
+}
+
+table {
+    background-color: var(--light-color);
+    text-align: center;
+    margin: 20px;
+}

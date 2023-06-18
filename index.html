@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@300&display=swap" rel="stylesheet">
+        <title>Oregon</title>
+    </head>
+    <body>
+        <header>
+            <h1>The State of Oregon</h1>
+        </header>
+        <nav>
+            <a href="index.html" class="nav-link" id="current-page-home">Home</a>
+            <a href="/pages/Salem.html" class="nav-link">Salem</a>
+            <a href="/pages/Portland.html" class="nav-link">Portland</a>
+            <a href="/pages/Newport.html" class="nav-link">Newport</a>
+        </nav>
+        <div class="website-body">
+        <section class="main-content">
+            <h2>Welcome to Oregon!</h2>
+            
+            <p>Oregon is the 33rd state and was established on February 14th, 1859 <a href="#references"><sup>9</sup></a>. It is located in the Pacific Northwest region of the United States. Click the links above to learn about several cities in Oregon.</p>
+            <section class="sub-content">
+            <img src="images/Flag_of_Oregon.svg" alt="image of Oregon's state flag">
+            <table>
+                <caption>Symbols of Oregon</caption>
+                <tr>
+                    <td>State Animal</td>
+                    <td>American Beaver</td>
+                    <td> Year adopted: 1969</td>
+                </tr>
+                    
+                </tr>
+                <tr>
+                    <td>State Songird</td>
+                    <td>Western Meadowlark</td>
+                    <td>Year adopted: 1927</td>
+                    
+                </tr>
+                <tr>
+                    <td>State Flower</td>
+                    <td>Oregon Grape</td>
+                    <td>Year adopted: 1899</td>
+                   
+                </tr>
+                <tr>
+                    <td>State Tree</td>
+                    <td>Douglas-fir</td>
+                    <td>Year adopted: 1939</td>
+                    
+                </tr>
+            </table>
+        </section>
+        </section>
+        <aside>
+            <form>
+                <h4>Sign up for our newsletter!</h4>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="John">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Doe">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="emailAddress" placeholder="JohnDoe@website.com">
+                <label for="email-confirm" >Confirm Email</label>
+                <input type="email" name="email-confirm" id="emailConfirm" placeholder="JohnDoe@website.com">
+                <label for="questions">Questions/Comments</label>
+                <textarea name="questions" id="questions" cols="20" rows="5" placeholder="Enter your questions here..."></textarea>
+                <input type="button" value="Submit" id="submitButton" onclick="validateEmail()">
+                <p id="results"></p>
+            </form>
+        </aside>
+        <section>
+            <a id="references"><h5>References</h5></a>
+            <ol>
+                <li>TEST FILLER TEXT</li>
+                <li>TEST FILLER TEXT</li>
+            </ol>
+        </section>
+    </div>
+        <footer>Website created by Marnie Staples - 2023</footer>
+        <script src="script.js"></script>
+    </body>
+</html>
