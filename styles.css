@@ -42,7 +42,7 @@ nav {
     padding: 5px;
     position: relative;
     top: 58px;
-    width: 100vw;
+    width: auto;
 }
 
 #results {
@@ -106,6 +106,12 @@ aside {
     background-color: var(--light-color);
     padding: 2px 5px;
     margin: 0;
+}
+
+#references-section {
+    background-color: var(--lightest-color);
+    margin-top: 58px;
+    padding: 16px;
 }
 
 label, input, button, textarea {
