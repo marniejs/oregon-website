@@ -104,8 +104,10 @@ caption {
 
 aside {
     background-color: var(--light-color);
-    padding: 2px 5px;
+    padding: 2px 18px;
+    width: 25vw;
     margin: 0;
+    justify-self: center;
 }
 
 #references-section {
